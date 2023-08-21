@@ -6,10 +6,11 @@ import SpecialOffers from './sections/SpecialOffers';
 import CustomerReviews from './sections/CustomerReviews';
 import Subscribe from './sections/Subscribe';
 import Footer from './sections/Footer';
+import Nav from './components/Nav';
 
 const App = () => (
   <main className='relative'>
-    {/* nav */}
+    <Nav/>
     <section className='xl:padding-1 wide:padding-r padding-b'>
       <Hero /> 
     </section>
